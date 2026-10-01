@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="page">
+        <div id="img-background">
+            <div id="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun preview-icon">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2"/>
+                    <path d="M12 20v2"/>
+                    <path d="m4.93 4.93 1.41 1.41"/>
+                    <path d="m17.66 17.66 1.41 1.41"/>
+                    <path d="M2 12h2"/><path d="M20 12h2"/>
+                    <path d="m6.34 17.66-1.41 1.41"/>
+                    <path d="m19.07 4.93-1.41 1.41"/>
+                </svg>
+            </div>
+            <div id="name">
+                <p>GARBATULA</p>
+            </div>
+        </div>
+        <div id="form-content">
+            <h2>GARBATULA | Your Trusted Desert Tour Service</h2>
+            <p>This is the official Sign up page for Garbatula Tours. Create an account to get started with booking, virtual tours, and to see availability per season.</p>
+            <form action="" method="post">
+                <fieldset>
+                    <div class="field">
+                        <label for="first">First Name:<span style="font-size: small; color: red;">*</span></label>
+                        <input type="text" name="first" id="first" required>
+                    </div>
+                    <div class="field">
+                    <label for="last">Last Name:<span style="font-size: small; color: red;">*</span></label>
+                    <input type="text" name="last" id="last" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="field">
+                        <label for="mail">Email address:<span style="font-size: small; color: red;">*</span></label>
+                        <input type="email" name="mail" id="mail" maxlength="25" required>
+                    </div>
+                     <div class="field">
+                        <label for="phone">Phone:<span style="font-size: small; color: red;">*</span></label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="field">
+                        <label for="pass">Enter password:<span style="font-size: small; color: red;">*</span></label>
+                        <input type="password" name="pass" id="pass" minlength="8" required>
+                    </div>
+                     <div class="field">
+                        <label for="confirm">Enter password again:<span style="font-size: small; color: red;">*</span></label>
+                        <input type="password" name="confirm" id="confirm" required>
+                    </div>
+                </fieldset>
+                <button type="submit" class="submit"><b>Sign Up</b></button>
+
+            </form>
+            <p>Have an account? <a href="#">Sign in</a></p>
+            <p style="padding-top: 22px; font-size: small; color:rgb(168, 166, 166); font-style: italic;">Photo credits: David Gavi on Unsplash</p>
+
+        </div>
+    </div>
     
 </body>
 </html>

@@ -1,0 +1,133 @@
+.after {
+    margin-block: auto;
+    text-align: center;
+    color: #234c5f;
+    font-size: small;
+}
+.copys{
+    text-align: center;
+    color: #234c5f;
+    font-size: small;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #234c5f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+}
+.preview-icon {
+  color: #fdc85e;
+  width: 100px;
+  height: 100px;
+}
+#svg, #name {
+        transform: translateY(-25vh);
+}
+#img-background{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 120vh;
+    background-image: url('images/sandy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#name p{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35px;
+    color: #234c5f;
+    text-shadow: 1px 1px 2px #65382a;
+    
+}
+#form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(#ffffff, #fcecd2);
+    width: 60%;
+    height: 110vh;
+}
+#form-content a{
+    text-decoration: none;
+    color:#234c5f;
+}
+
+#form-content a:hover{
+    color: #65382a;
+}
+
+#form-content h2{
+    color: #234c5f;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    gap: 5px;
+}
+fieldset{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+    border:none;
+    gap: 50px;
+
+}
+form label{
+    font-size: small;
+    color: #65382a;
+}
+#form-content p, input[type="date"]{
+    font-size: small;
+    color: #292827;
+    padding:10px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+}
+input{
+    border: 1px solid #dcdcdc;     /* Clean, distinct grey border */
+    border-radius: 5px; 
+    outline: none;                  /* Remove default outline */
+    padding: 5px;                   /* Add padding for better spacing */
+    
+}
+input:focus {
+    border-color: #65382a;         /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(35, 76, 95, 0.5); /* Optional: subtle shadow for focus */
+}
+
+button{
+    background-color: #65382a;
+    width:120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #fcecd2;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: #234c5f;
+}
